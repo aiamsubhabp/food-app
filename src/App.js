@@ -1,24 +1,30 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar'
+import FoodForm from './components/FoodForm'
+import FoodContainer from './components/FoodContainer'
+import { useState, useEffect } from 'react';
+
+
 
 function App() {
+  const [foods, setFoods] = useState([])
+
+  useEffect(() => {
+    fetch('http://127.0.0.1:3000/foods')
+      .then(r => r.json())
+      .then(foods => setFoods(foods))
+      .catch(error => console.error(error))
+  }, [])
+
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      Hello
+      <NavBar />
+      <FoodForm />
+      <FoodContainer 
+        foods={foods}
+      />
     </div>
   );
 }

@@ -1,16 +1,28 @@
 {
-    "toys": [
+    "foods": [
       {
         "id": 1,
-        "name": "Woody",
+        "name": "Noodles",
         "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "likes": 8
+        "likes": 0
       },
       {
         "id": 2,
-        "name": "Buzz Lightyear",
+        "name": "Steak",
         "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "likes": 14
+        "likes": 0
+      },
+      {
+        "id": 3,
+        "name": "Burritos",
+        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+        "likes": 0
+      },
+      {
+        "id": 4,
+        "name": "Hotdogs",
+        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+        "likes": 0
       }
     ]
   }
