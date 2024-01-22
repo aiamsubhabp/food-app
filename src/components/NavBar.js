@@ -8,13 +8,13 @@ function NavBar() {
                 to='/'
                 className='nav-link'
             >
-                Home Page
+                Foods
             </NavLink>
             <NavLink
-                to='/foodform'
+                to='/desserts'
                 className='nav-link'
             >
-                Add a Food Item
+                Desserts
             </NavLink>
         </nav>
 

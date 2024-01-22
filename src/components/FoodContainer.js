@@ -1,8 +1,8 @@
-import FoodCard from './FoodCard'
+import Card from './ReusableCard'
 
 function FoodContainer({foods}) {
     const foodList = foods.map(food => (
-        <FoodCard 
+        <Card 
             key={food.id}
             food={food}
         />

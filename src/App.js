@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar'
 import FoodContainer from './components/FoodContainer'
 import { useState, useEffect } from 'react';
+import FoodForm from './components/FoodForm';
 
 
 
@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <FoodForm />
       <FoodContainer 
         foods={foods}
       />
