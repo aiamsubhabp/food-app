@@ -7,13 +7,11 @@ function FoodCard({food}) {
 
 
     return(
-    <div onClick={handleClick}>
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <p className="card-text">{likes}</p>
-        </div>
-      </div>
+    <div className="card">
+        <h3>{name}</h3>
+        <img src={image} className="food-image" />
+        <p className="card-text">{likes} likes!</p>
+        <button>like {"<3"}</button>
     </div>
     )
 }
