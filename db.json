@@ -17,11 +17,25 @@
         "name": "Burritos",
         "image": "https://3f4c2184e060ce99111b-f8c0985c8cb63a71df5cb7fd729edcab.ssl.cf2.rackcdn.com/media/17708/beefsteakburritos.jpg",
         "likes": 0
+      }
+    ],
+    "desserts": [
+      {
+        "id": 1,
+        "name": "Ice Cream",
+        "image": "https://www.daringgourmet.com/wp-content/uploads/2023/07/Cookies-and-Cream-Ice-Cream-Recipe-3.jpg",
+        "likes": 0
       },
       {
-        "id": 4,
-        "name": "Hotdogs",
-        "image": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IPJAY7WQUAI6ZCDL353BQPJDH4.jpg",
+        "id": 2,
+        "name": "Mangos and Sticky Rice",
+        "image": "https://elavegan.com/wp-content/uploads/2020/07/drizzling-coconut-sauce-over-mango-sticky-rice.jpg",
+        "likes": 0
+      },
+      {
+        "id": 3,
+        "name": "Fudge Brownies",
+        "image": "https://www.kingarthurbaking.com/sites/default/files/recipe_legacy/4-3-large_0.jpg",
         "likes": 0
       }
     ]

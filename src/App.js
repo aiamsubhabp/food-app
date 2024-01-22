@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar'
-import FoodForm from './components/FoodForm'
 import FoodContainer from './components/FoodContainer'
 import { useState, useEffect } from 'react';
 
@@ -21,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <FoodForm />
       <FoodContainer 
         foods={foods}
       />
