@@ -8,8 +8,8 @@ const routes = [
       
     }, 
     {
-      path: "/about",
-      element: <About />,
+      path: "/foodform",
+      element: <FoodForm />,
      
     },
   ];

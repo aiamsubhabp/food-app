@@ -1,11 +1,23 @@
-
+import { NavLink } from 'react-router-dom'
 import './NavBar.css'
 
 function NavBar() {
     return(
-        <div>
-            i am NavBar
-        </div>
+        <nav>
+            <NavLink
+                to='/'
+                className='nav-link'
+            >
+                Home Page
+            </NavLink>
+            <NavLink
+                to='/foodform'
+                className='nav-link'
+            >
+                Add a Food Item
+            </NavLink>
+        </nav>
+
     )
 }
 
