@@ -17,10 +17,16 @@ function App() {
       .catch(error => console.error(error))
   }, [])
 
+  function handleAddFood(newFood) {
+    setFoods([...foods, newFood])
+  }
+
   return (
     <div className="App">
       <NavBar />
-      <FoodForm />
+      <FoodForm 
+        onAddFood={handleAddFood}
+      />
       <FoodContainer 
         foods={foods}
       />

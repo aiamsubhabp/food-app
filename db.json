@@ -1,48 +1,54 @@
 {
-    "foods": [
-      {
-        "id": 1,
-        "name": "Noodles",
-        "image": "https://sudachirecipes.com/wp-content/uploads/2022/09/shoyu-ramen-sq.jpg",
-        "description": "delectable example",
-        "likes": 0
-      },
-      {
-        "id": 2,
-        "name": "Steak",
-        "image": "https://kitchenconfidante.com/wp-content/uploads/2022/05/Angus-Beef-Steak-Recipe-with-Garlic-Herb-Compound-Butter-kitchenconfidante.com-2745-FEATURED-IMAGE.jpg",
-        "description": "delectable example",
-        "likes": 0
-      },
-      {
-        "id": 3,
-        "name": "Burritos",
-        "image": "https://3f4c2184e060ce99111b-f8c0985c8cb63a71df5cb7fd729edcab.ssl.cf2.rackcdn.com/media/17708/beefsteakburritos.jpg",
-        "description": "delectable example",
-        "likes": 0
-      }
-    ],
-    "desserts": [
-      {
-        "id": 1,
-        "name": "Ice Cream",
-        "image": "https://www.daringgourmet.com/wp-content/uploads/2023/07/Cookies-and-Cream-Ice-Cream-Recipe-3.jpg",
-        "description": "delectable example",
-        "likes": 0
-      },
-      {
-        "id": 2,
-        "name": "Mangos and Sticky Rice",
-        "image": "https://elavegan.com/wp-content/uploads/2020/07/drizzling-coconut-sauce-over-mango-sticky-rice.jpg",
-        "description": "delectable example",
-        "likes": 0
-      },
-      {
-        "id": 3,
-        "name": "Fudge Brownies",
-        "image": "https://www.kingarthurbaking.com/sites/default/files/recipe_legacy/4-3-large_0.jpg",
-        "description": "delectable example",
-        "likes": 0
-      }
-    ]
-  }
+  "foods": [
+    {
+      "id": 1,
+      "name": "Noodles",
+      "image": "https://sudachirecipes.com/wp-content/uploads/2022/09/shoyu-ramen-sq.jpg",
+      "description": "delectable example",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Steak",
+      "image": "https://kitchenconfidante.com/wp-content/uploads/2022/05/Angus-Beef-Steak-Recipe-with-Garlic-Herb-Compound-Butter-kitchenconfidante.com-2745-FEATURED-IMAGE.jpg",
+      "description": "very tasty, i love it so much i could eat it all day one of my favorite foods in the whole entire",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Burritos",
+      "image": "https://3f4c2184e060ce99111b-f8c0985c8cb63a71df5cb7fd729edcab.ssl.cf2.rackcdn.com/media/17708/beefsteakburritos.jpg",
+      "description": "delectable example",
+      "likes": 0
+    },
+    {
+      "name": "Pizza",
+      "image": "ASD",
+      "description": "sdflkn",
+      "id": 4
+    }
+  ],
+  "desserts": [
+    {
+      "id": 1,
+      "name": "Ice Cream",
+      "image": "https://www.daringgourmet.com/wp-content/uploads/2023/07/Cookies-and-Cream-Ice-Cream-Recipe-3.jpg",
+      "description": "delectable example",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Mangos and Sticky Rice",
+      "image": "https://elavegan.com/wp-content/uploads/2020/07/drizzling-coconut-sauce-over-mango-sticky-rice.jpg",
+      "description": "delectable example",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Fudge Brownies",
+      "image": "https://www.kingarthurbaking.com/sites/default/files/recipe_legacy/4-3-large_0.jpg",
+      "description": "delectable example",
+      "likes": 0
+    }
+  ]
+}
