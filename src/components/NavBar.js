@@ -16,6 +16,12 @@ function NavBar() {
             >
                 Desserts
             </NavLink>
+            <NavLink
+                to='/about'
+                className='nav-link'
+            >
+                About Page
+            </NavLink>
         </nav>
 
     )

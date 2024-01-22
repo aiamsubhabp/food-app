@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"
 
-function Card({food}) {
-    const {id, name, image,description, likes} = food
+
+function Card({id, name, image}) {
+    
 
     return(
     <div className="card">
@@ -9,8 +10,6 @@ function Card({food}) {
         <img src={image} className="food-image" />
         {/* <p className="card-text">{likes} likes!</p>
         <button>like {"<3"}</button> */}
-        <Link to={`/${name}/${id}`}>View more info  </Link>
-        <h5>{description}</h5>
     </div>
     )
 }

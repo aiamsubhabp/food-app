@@ -4,7 +4,9 @@ function FoodContainer({foods}) {
     const foodList = foods.map(food => (
         <Card 
             key={food.id}
-            food={food}
+            name={food.name}
+            image={food.image}
+            description={food.description}
         />
     ))
 

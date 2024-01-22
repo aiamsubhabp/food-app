@@ -13,8 +13,10 @@ function DessertsContainer() {
 
     const dessertsList = desserts.map(dessert => (
         <Card 
-            key={dessert.id}
-            food={dessert}
+        key={dessert.id}
+        name={dessert.name}
+        image={dessert.image}
+        description={dessert.description}
         />
     ))
 
