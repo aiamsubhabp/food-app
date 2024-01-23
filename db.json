@@ -20,6 +20,12 @@
       "image": "https://3f4c2184e060ce99111b-f8c0985c8cb63a71df5cb7fd729edcab.ssl.cf2.rackcdn.com/media/17708/beefsteakburritos.jpg",
       "description": "Mexican dish with a flour tortilla filled with rice, beans, meat, cheese, and salsa; customizable with toppings like guacamole and lettuce.",
       "likes": 0
+    },
+    {
+      "name": "Sushi",
+      "image": "https://properfoodie.com/wp-content/uploads/2020/07/featured-sushi-2b-feature-sushi-2b-1.jpg",
+      "description": "raw fish",
+      "id": 4
     }
   ],
   "desserts": [
