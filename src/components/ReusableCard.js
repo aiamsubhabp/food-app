@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 
-function Card({id, name, image}) {
+function Card({id, name, image, description}) {
     
 
     return(
@@ -10,6 +10,7 @@ function Card({id, name, image}) {
         <img src={image} className="food-image" />
         {/* <p className="card-text">{likes} likes!</p>
         <button>like {"<3"}</button> */}
+        <h5>{description}</h5>
     </div>
     )
 }

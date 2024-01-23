@@ -2,23 +2,23 @@
   "foods": [
     {
       "id": 1,
-      "name": "Noodles",
+      "name": "Ramen",
       "image": "https://sudachirecipes.com/wp-content/uploads/2022/09/shoyu-ramen-sq.jpg",
-      "description": "delectable example",
+      "description": "Japanese dish with wheat noodles in meat or fish broth, topped with ingredients like pork and seaweed, flavorful and comforting.",
       "likes": 0
     },
     {
       "id": 2,
       "name": "Steak",
       "image": "https://kitchenconfidante.com/wp-content/uploads/2022/05/Angus-Beef-Steak-Recipe-with-Garlic-Herb-Compound-Butter-kitchenconfidante.com-2745-FEATURED-IMAGE.jpg",
-      "description": "very tasty, i love it so much i could eat it all day one of my favorite foods in the whole entire",
+      "description": "High-quality beef slice, grilled or pan-fried, known for its juicy and flavorful characteristics, seasoned and cooked to perfection.",
       "likes": 0
     },
     {
       "id": 3,
       "name": "Burritos",
       "image": "https://3f4c2184e060ce99111b-f8c0985c8cb63a71df5cb7fd729edcab.ssl.cf2.rackcdn.com/media/17708/beefsteakburritos.jpg",
-      "description": "delectable example",
+      "description": "Mexican dish with a flour tortilla filled with rice, beans, meat, cheese, and salsa; customizable with toppings like guacamole and lettuce.",
       "likes": 0
     }
   ],
